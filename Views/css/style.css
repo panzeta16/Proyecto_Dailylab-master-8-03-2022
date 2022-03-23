@@ -13,18 +13,20 @@ input {
 }
 
 
+input{
+  height: 45px;
+}
 
-
-.form-control {
+.form-control input {
   max-width: 280px;
   width: 100%;
   border-color: #68C4D4;
 
   margin: 2px ;
-  height: 40px;
-  border-radius: 55px;
+  height: 45px;
+
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 45% 45%;
   margin: 2px;
  
   position: relative;
@@ -147,7 +149,7 @@ form.sign-in-form {
   background-color: #f0f0f0;
   margin: 5px 0;
   height: 40px;
-  border-radius: 55px;
+ 
   display: grid;
   grid-template-columns: 15% 85%;
   padding: 0 0.1rem;
@@ -214,7 +216,7 @@ form.sign-in-form {
   align-items: center;
   margin: 0 0.45rem;
   color: #333;
-  border-radius: 50%;
+  
   border: 1px solid #333;
   text-decoration: none;
   font-size: 1.1rem;
@@ -226,16 +228,34 @@ form.sign-in-form {
   border-color: #68C4D4;
 }
 
+.btnenviar {
+  width: 110px;
+  background-color:#68C4D4;
+  border: none;
+  outline: none;
+  height: 25px;
+  border-radius: 49px;
+  color: rgb(0, 0, 0);
+ margin: auto;
+
+ font-size: small;
+  font-weight: 300;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
 .btn {
   width: 150px;
   background-color: #FFE406;
   border: none;
   outline: none;
-  height: 49px;
+  height: 45px;
   border-radius: 49px;
   color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  font-weight: 600;
+ 
+  font-weight: 400;
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
@@ -316,7 +336,7 @@ form.sign-in-form {
   border: 2px solid rgb(255, 255, 255);
   width: 130px;
   height: 41px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.8rem;
 }
 

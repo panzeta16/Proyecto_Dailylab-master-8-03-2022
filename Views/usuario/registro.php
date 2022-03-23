@@ -20,27 +20,27 @@
           <form  action="?c=usuario&a=validate" method="post" class="sign-in-form">
           
             <div class="container-fluid">
-          <div class="card" style="width: 30rem; margin:auto">
+          <div  style="width: 30rem; margin:auto">
           <div class="card-body">
             <center>
-          <h2 class="title">inicia sesion</h2>
+          <h2 class="title">Iniciar sesión</h2>
          
-
+          </center>
                           
                           <div class="col">
-                          <center>
+                         
                       <label for="">correo </label>
-                      </center>
-                      <input name="Correo_Electronico" type="text" placeholder="Usuario" maxlength="40" oninput="maxlengthNumber(this);"  class="form-control" required/>
+               
+                      <input name="Correo_Electronico" type="text" placeholder="Correo" maxlength="40" oninput="maxlengthNumber(this);"  class="form-control" required/>
                       <br>
                       
-                      <center>
+                  
                     <label for="">Contraseña</label>
-                    </center>
-                    <input  name="Contrasena_Usuario3" id="Contrasena_Usuario3" type="password" placeholder="contrasena" maxlength="11" oninput="maxlengthNumber(this);" class="form-control" required/>
+                  
+                    <input  name="Contrasena_Usuario" id="Contrasena_Usuario3" type="password" placeholder="contrasena" maxlength="11" oninput="maxlengthNumber(this);" class="form-control" required/>
                     
                   </div>
-                  </center>
+                  
    
 
   <div class="icon"> 
@@ -83,6 +83,16 @@
                           }
                         </script>
 
+                                    <!-- esto evita el desbordamiento de datos-->
+
+            <center>
+              <a  id="" href="?c=usuario&a=recuperarPass&Start=1">
+              
+              Recuperar contraseña
+             </a>
+             </center>
+
+             <br>
 <center>
             <input type="submit" value="Ingresa" class="btn solid" />
             </center>
@@ -102,7 +112,7 @@
           <form action="?c=usuario&a=save" id="registro" class="sign-up-form" method="post" >
         
           <div class="container-fluid">
-          <div class="card" style="width: 40rem; margin:auto">
+          <div  style="width: 40rem; margin:auto">
           <div class="card-body">
 
 <center>
@@ -113,16 +123,16 @@
             <div class="form-row">
            
           <div class="col">
-          <center>
+          
       <label for="">nombre</label>
-      </center>
+      
       <input name="Nombres_Usuario" id='Nombres_Usuario' type="text" maxlength="25" oninput="maxlengthNumber(this);" required  class="form-control" placeholder="Nombres">
       
     </div>
     <div class="col">
-      <center>
+     
     <label for="">apellidos</label>
-    </center>
+  
     <input name="Apellidos_Usuario" id='Apellidos_Usuario' type="text" maxlength="25"  oninput="maxlengthNumber(this);"  class="form-control" placeholder="Apellidos" >
     </div>
   </div>
@@ -131,16 +141,16 @@
   <div class="form-row">
            
            <div class="col">
-           <center>
+          
        <label for="">Documento</label>
-       </center>
+      
        <input name="Documento_Identificacion" id='Documento_Identificacion' type="number" maxlength="10" oninput="maxlengthNumber(this);"  class="form-control" placeholder="Documento">
        
      </div>
      <div class="col">
-       <center>
+   
      <label for="">Telefono</label>
-     </center>
+  
      <input name="Telefono_Usuario" id='Telefono_Usuario' type="number" maxlength="10" oninput="maxlengthNumber(this);"  class="form-control"  placeholder="Telefono">
      </div>
    </div>
@@ -151,9 +161,9 @@
    <div class="form-row">
            
            <div class="col">
-           <center>
+        
        <label for="">RH</label>
-       </center>
+    
        <select   class="form-control" name="Id_RH" id="Id_RH" class="selectpicker show-tick" p>
                                 <option  class="font-weight-bold" > </option>
                                 <?php foreach ($RH as $RHS) : ?>
@@ -168,8 +178,9 @@
        
      </div>
      <div class="col">
-       
+      
      <label for="">ID empleado</label>
+    
      <input name="Id_Area" id='Id_Area' type="number" maxlength="4" oninput="maxlengthNumber(this);"  class="form-control"  placeholder="ID empleado" />
      </div>
    </div>
@@ -178,13 +189,16 @@
    <div class="form-row">
            
            <div class="col">
-           
+         
        <label for="">correo </label>
+      
        <input name="Correo_Electronico" id="Correo_Electronico" type="email" maxlength="40" oninput="maxlengthNumber(this);"  class="form-control"  placeholder="Corro electronico">
        
      </div>
      <div class="col">
+    
      <label for="">Confirmar</label>
+   
      <input id="Correo_Electronico2" type="email" maxlength="40" oninput="maxlengthNumber(this);"  class="form-control" placeholder="Confirma tu correo">
      </div>
    </div>
@@ -193,13 +207,16 @@
    <div class="form-row">
            
            <div class="col">
-           
+         
        <label for="">Contraseña </label>
+       
        <input name="Contrasena_Usuario" type="password" id="Contrasena_Usuario"  maxlength="13" oninput="maxlengthNumber(this);"  class="form-control" placeholder="Contraseña" >
        
      </div>
      <div class="col">
+    
      <label for="">Confirmar</label>
+     </center>
      <input type="password" name="Contrasena_Usuario2" id="Contrasena_Usuario2" maxlength="13"  oninput="maxlengthNumber(this);"  class="form-control" placeholder="Confirmar contraseña" >
      </div>
    </div>
@@ -213,16 +230,40 @@
 
    <div>
 
-  <div class="icon"> 
-  <div class="form-row">
-  <div class="col">
-<input type="checkbox" onclick="mostrar2()" value="ver" >
 
-<label for="">Mostrar contraseña</label>
-</div>
-</div>
+
+
+
+  <div class="icon"  > 
+ 
+  
+  <input type="button" class="btnenviar" id="exampleCheck1" onclick="mostrar2()" value="ver contraseña"> 
+ 
+
+
+  
+  
+
+
+
+
+
+
     </div>
 </div>
+
+</div>
+
+
+
+  
+  </div>
+
+
+  </div>
+
+
+
 
 <center>
 <span class="mensaje" id="mensaje">insegura</span>
@@ -242,9 +283,7 @@
 
 </div>
 
-  </div>
-  </div>
-  </div>
+
 
 
 

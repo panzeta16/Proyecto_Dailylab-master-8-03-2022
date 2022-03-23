@@ -163,27 +163,35 @@
 
         <div class="row">
           <div class="col-xl-5 col-lg-6 acerca-box d-flex justify-content-center align-items-stretch position-relative">
-    <img src="Views/multimedia/doctorlanding-removebg.png" width="400" height="450" alt="">
+    <img src="Views/multimedia/removebg.jpg" width="400" height="600" alt="">
           </div>
 
           <div class="col-xl-7   ">
           <div class="container">
 
 <div class="section-title">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
-
-  <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            
+<div class="left" >
+  <div class="col-xl-9 col-lg-8 acerca-box   ">
+           <center>
             <h2>Acerca de Dailylab</h2>
+            </center>
             
 
          
             
              
-              <p >Dailylab es un software de agendamiento de citas enfocado en el área de la salud como los laboratorios clínicos, eps, entre otros. En él podrás encontrar diferentes módulos que te ayudaran en el proceso de gestión de tiempo de tu empresa, organizando tu agenda. Su objetivo es evoluciona e innovar a la vez que el mundo de la tecnologia y el area de la salud lo hacen, se puede hacer un rastreo de rendimiento con el que se busca una constante planeacion y desarrollo de soluciones que faciliten la gestion de las funciones de los laboratorios clinicos. </p>
+              <p >Dailylab es un software de agendamiento de citas enfocado en el área de la salud como los laboratorios clínicos, eps, entre otros.
+                 En él podrás encontrar diferentes módulos que te ayudaran en el proceso de gestión de tiempo de tu empresa, organizando tu agenda. Su objetivo es evoluciona e innovar a la vez que el mundo de la tecnologia y el area de la salud lo hacen, se puede hacer un rastreo de rendimiento con el que se busca una constante planeacion y desarrollo de soluciones que faciliten la gestion de las funciones de los laboratorios clinicos. </p>
        
-
+                 </div>
 </div>
 
   <div class="col-lg-9">
