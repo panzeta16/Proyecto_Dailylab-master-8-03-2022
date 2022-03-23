@@ -6,15 +6,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- esto va en cada tabla-->
-<link rel="stylesheet" href="Views/css/perfil.css">
-<link rel="stylesheet" href="Views/css/tablas.css">
+<link rel="stylesheet" href="Views\css\perfil.css">
 <link rel="stylesheet" href="Views\css\modal.css">
 <link href="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.css" rel="stylesheet" type="text/css">
 <script src="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.js" type="text/javascript"></script>
 <!-- esto va en cada tabla-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
         <title>Ver perfil</title>
         <h1>Mis Datos </h1>
     </head>
@@ -25,22 +23,16 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="?c=citas&a=Menu">Inicio</a></li>
         <li class="breadcrumb-item active">Datos personales</li>
+</div>
+
         <section class="seccion-perfil-usuario">
-        <div class="perfil-usuario-header">
-            <div class="perfil-usuario-portada">
-                <div class="perfil-usuario-avatar">
-                    <img src="Views/multimedia/perfil.png" alt="img-avatar">
-                  
 
-                </div>
 
-            </div>
-        </div>
         <div class="perfil-usuario-body">
             <div class="perfil-usuario-bio">
-                <center>
+        
             <button class="agendar" id="open">Actualiza tus datos</button>
-            </center>
+
 <div id="modal_container" class="fondo">
 
 
@@ -48,41 +40,56 @@
   <div class="ventana">
 
 
+  <div class= "container-fluid">
+  <div class="card" style="width: 30rem; margin:auto">
+    <div class="card-body">
 
     <h1>Editar datos </h1>
+    <br>
       <form action="?c=usuario&a=verPerfil"> 
 
    
-
+      <div  class="form-group" >
       <label for="">Nombre</label>
       <input type="text" value=" <?=$_SESSION['user']->getNombres_Usuario();?>">
+      </div>
+      <div  class="form-group" >
       <label for="">Apellido</label>
       <input type="text" value=" <?=$_SESSION['user']->getApellidos_Usuario();?> "> 
+      </div>
+     
 
-<br>
   
-
+<div class="form-group " >
 <label for="">documento</label>
 <input type="text" value="<?=$_SESSION['user']->getDocumento_Identificacion();?>">
+</div>
+<div class="form-group " >
 <label for="">Correo</label>
 <input type="text" value=" <?=$_SESSION['user']->getCorreo_Electronico();?> "> 
+</div>
 
-<br>
     
-
+<div class="form-group" >
 <label for="">Telefono</label>
 <input type="text" value=" <?=$_SESSION['user']->getTelefono_Usuario();?>">
+</div>
+<div class="form-group " >
 <label for="">Correo</label>
 <input type="text" value=" <?=$_SESSION['user']->getNombres_Usuario();?> "> 
+</div>
 
 
-<br>
+
   
-
+<div class="form-group " >
 <label for=""> Nueva Contraseña</label>
 <input  id="Contrasena_Usuario" type="text" >
+</div>
+<div class="form-group " >
 <label   for="">Confirma Contraseña</label>
 <input  id="Contrasena_Usuario2" type="text" > 
+</div>
 
 
   
@@ -97,10 +104,10 @@
 
     
     
-
+      </div>
+      </div>
     
-    
-
+      </div>
 
     
   </div>
@@ -114,8 +121,9 @@
             </div>
 
 
+
             <div class="perfil-usuario-footer">
-               
+    
                 <ul class="lista-datos">
                     <li><i class="icono fas fa-user-check""></i> Nombre :</li>
                     <li><i class="icono fas fa-user-check""></i> Apellido:</li>
@@ -130,9 +138,11 @@
                 </ul>
 
             
+
+            
                
                 <ul class="lista-datos">
-                    <li><i class="icono fas fa-user-check""></i> DOCUMENTO :</li>
+                    <li><i class="icono fas fa-user-check""></i> Documento:</li>
                     <li><i class="icono fas fa-user-check""></i> Apellido:</li>
                     <li><i class="icono fas fa-briefcase"></i> Correo:</li>
                     <li><i class="icono fas fa-phone-alt"></i> Telefono:</li>

@@ -33,9 +33,7 @@
     </div>
 
     
-<div class="container"> 
 
-</div> 
 
 <div class="contact-box">  
 <br>

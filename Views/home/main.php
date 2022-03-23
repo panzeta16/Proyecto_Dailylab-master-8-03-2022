@@ -100,12 +100,12 @@
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
               <center>
-              <h3>Modulos</h3>
+              <h3>Módulos</h3>
               </center>
 
    <br>
               <p>
-               Conoce nuestroso tres modulos mas importantes  </p> <p> con los que funciona nuestro software.
+               Conoce los tres modulos que son el pilar base para el buen funcionamiento del software.
 
               </p>
               <div class="text-center">
@@ -129,14 +129,14 @@
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class='bx bx-test-tube' ></i>
                     <h4>Análisis</h4>
-                    <p>Análisis de tomas de muestra optimas, sin demoras ni errores</p>
+                    <p>analisis de tomas de muestra en tiempos optimos, sistematizado, sin errores, con control de novedades</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class='bx bxs-calendar-minus' ></i>
                     <h4>Gestión de citas</h4>
-                    <p>Pide tus citas sin salir de casa, sin demoras y en tu disponibilidad de tiempo</p>
+                    <p>agenda, canelacion o confirmacion de citas sin salir de casa, sin demoras, facilitando el flujo de atención</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
@@ -156,135 +156,106 @@
     </section><!-- End Why Us Section -->
 
 
-    <!-- ======= Departments Section ======= -->
-    <section id="departments" class="departments">
-      <div class="container">
 
-        <div class="section-title">
-
-        <br>
-        <br>
-          <h2>¿Qué es Dailylab?</h2>
-          <br>
-          <p>Dailylab es un software de agendamiento de citas enfocado en el área de la salud como los laboratorios clínicos, eps, entre otros. En él podrás encontrar diferentes módulos que te ayudaran en el proceso de gestión de tiempo de tu empresa, organizando tu agenda.</p>
-        </div>
-
-        <div class="row gy-4">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1"></a>
-              </li>
-
-            </ul>
-          </div>
-          <div class="col-lg-9">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3></h3>
-                    <p class="fst-italic"></p>
-                    <p></p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-  
-                  
-                   
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Glucosa</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="Views/multimedia/departments-2.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Nivel de pH</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="Views/multimedia/departments-3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Perfil bioquímico</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="Views/multimedia/departments-4.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Perfil lipídico</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="Views/multimedia/departments-5.jpg" alt=""  class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Departments Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
       <div class="container-fluid">
 
         <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+          <div class="col-xl-5 col-lg-6 acerca-box d-flex justify-content-center align-items-stretch position-relative">
+    <img src="Views/multimedia/doctorlanding-removebg.png" width="400" height="450" alt="">
           </div>
 
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Ventajas</h3>
-<br>
+          <div class="col-xl-7   ">
+          <div class="container">
 
-            <div class="icon-box">
-              <div class="icon"><i class='bx bx-slideshow' ></i></div>
-              <h4 class="title"><a href="">Virtualidad</a></h4>
-              <p class="description">Con nuestro software de agendamientos puedes sacar tus citas desde donde estes y en el momento que mas te convenga, sin necesidad de desplazarte o buscar un espacio en tu agenda para hacerlo</p>
-            </div>
+<div class="section-title">
 
-            <div class="icon-box">
-              <div class="icon"><i class='bx bx-trending-up' ></i></div>
-              <h4 class="title"><a href="">Agilidad</a></h4>
-              <p class="description">Evita las largas colas, demora del la prestación del servicio, errores de digitacion o sistemas demorados. Agenda tus citas en menos de 5 minutos con dailylab.</p>
-            </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class='bx bxs-calendar'></i></div>
-              <h4 class="title"><a href="">Facilidad de agendamiento</a></h4>
-              <p class="description">Dailylab es el software mas intuitivo y facil de manejar que puedas encontrar, incluye un manual de usuario muy corto  sencilo que puedes ver en caso de tener dudas.</p>
-            </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class='bx bx-tachometer'></i></div>
-              <h4 class="title"><a href="">Incrementa la productividad</a></h4>
-              <p class="description">Con un sistema de agendamientos optimo, la prestación del servcio es mejor! mas beneficiosa para el lado del usuario como para el lado de la empresa prestadora del servicio.</p>
-            </div>
+  <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            
+            <h2>Acerca de Dailylab</h2>
+            
+
+         
+            
+             
+              <p >Dailylab es un software de agendamiento de citas enfocado en el área de la salud como los laboratorios clínicos, eps, entre otros. En él podrás encontrar diferentes módulos que te ayudaran en el proceso de gestión de tiempo de tu empresa, organizando tu agenda. Su objetivo es evoluciona e innovar a la vez que el mundo de la tecnologia y el area de la salud lo hacen, se puede hacer un rastreo de rendimiento con el que se busca una constante planeacion y desarrollo de soluciones que faciliten la gestion de las funciones de los laboratorios clinicos. </p>
+       
+
+</div>
+
+  <div class="col-lg-9">
+    <div class="tab-content">
+      <div class="tab-pane active show" id="tab-1">
+        <div class="row gy-4">
+          <div class="col-lg-8 details order-2 order-lg-1">
+            <h3></h3>
+            <p class="fst-italic"></p>
+            <p></p>
+          </div>
+          <div class="col-lg-4 text-center order-1 order-lg-2">
+
+          
+           
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-2">
+        <div class="row gy-4">
+          <div class="col-lg-8 details order-2 order-lg-1">
+            <h3>Glucosa</h3>
+            <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+            <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+          </div>
+          <div class="col-lg-4 text-center order-1 order-lg-2">
+            <img src="Views/multimedia/departments-2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-3">
+        <div class="row gy-4">
+          <div class="col-lg-8 details order-2 order-lg-1">
+            <h3>Nivel de pH</h3>
+            <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+            <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+          </div>
+          <div class="col-lg-4 text-center order-1 order-lg-2">
+            <img src="Views/multimedia/departments-3.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-4">
+        <div class="row gy-4">
+          <div class="col-lg-8 details order-2 order-lg-1">
+            <h3>Perfil bioquímico</h3>
+            <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+            <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+          </div>
+          <div class="col-lg-4 text-center order-1 order-lg-2">
+            <img src="Views/multimedia/departments-4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-5">
+        <div class="row gy-4">
+          <div class="col-lg-8 details order-2 order-lg-1">
+            <h3>Perfil lipídico</h3>
+            <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+            <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+          </div>
+          <div class="col-lg-4 text-center order-1 order-lg-2">
+            <img src="Views/multimedia/departments-5.jpg" alt=""  class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
 
           </div>
         </div>
@@ -292,7 +263,7 @@
       </div>
     </section><!-- End About Section -->
 
-   
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -318,15 +289,15 @@
             <div class="icon-box">
               <div class="icon"><i class="fas fa-hospital-user"></i></div>
               <h4><a href="">Informes</a></h4>
-              <p>Consulta de historiales y  citas de forma muy intutiva, facil y sin demoras</p>
+              <p>Informe de historiales y  citas de forma muy intutiva, Informe de historial de todas las citas gestionadas (virtual y presencialmente) por paciente, fecha o examen. </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="ri-login-circle-line"></i></div>
               <h4><a href="">Registra</a></h4>
-              <p>Registro de  datos personales  desde tu comodidad o  indicandoselos al personal de labororatorio  </p>
+              <p>Registro de  datos personales desde el modulo de empleados como el de pacientes, con funcionalidad 24/7 para los usuarios, mejorando la expriencia de estos.  </p>
             </div>
           </div>
 
@@ -335,7 +306,7 @@
             <div class="icon-box">
               <div class="icon"><i class="ri-questionnaire-line"></i></div>
               <h4><a href="">Consulta</a></h4>
-              <p>Consulta tus resultados de forma online y descargalos en cualquier  momento  </p>
+              <p>Consulta y descarga de resultados online. Elimina la necesidad de un proceso presencial, impresion de documentos desde el laboratorio o demoras del sistema.  </p>
             </div>
           </div>
 
@@ -343,7 +314,7 @@
             <div class="icon-box">
               <div class="icon"><i class="ri-check-double-line"></i></div>
               <h4><a href="">Facilita</a></h4>
-              <p>Facilita la gestion de tu negocio, muchas funcionalidades utiles para un buen funcionamiento en un solo sistema.</p>
+              <p>Facilita la gestion de tu negocio, genera informacion en tiempo real muchas funcionalidades utiles para un buen funcionamiento en un solo sistema.</p>
             </div>
           </div>
 
@@ -351,7 +322,7 @@
             <div class="icon-box">
               <div class="icon"><i class="ri-error-warning-fill"></i></div>
               <h4><a href="">Reportes</a></h4>
-              <p>  Reporte de fallas de los analisis de muestra  en modulo de enfermeria para lelvar un correcto control </p>
+              <p>  Reporte de fallas de los analisis de muestra  en modulo de enfermeria para lelvar un correcto control y notificación de las novedades </p>
             </div>
           </div>
 
@@ -365,6 +336,59 @@
     </section><!-- End Services Section -->
 
 
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>Ventajas</h3>
+                 <br>
+
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-slideshow' ></i></div>
+              <h4 class="title"><a href="">Virtualidad</a></h4>
+              <p class="description">Con el software de agendamiento Dailylab se pueden gestionar citas sin necesidad de un ambiente presencial, con amplia disponibilidad de tiempos, lo que permite una gestion de trabajo no limitada a un espacio en particular. </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-trending-up' ></i></div>
+              <h4 class="title"><a href="">Agilidad</a></h4>
+              <p class="description">Evita las largas filas, demora del la prestación del servicio, errores de digitacion o sistemas demorados. Agendamiento de citas en menos de 5 minutos que permiten una correcta y rapida visualizacion de fechas disponibles.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxs-calendar'></i></div>
+              <h4 class="title"><a href="">Facilidad de agendamiento</a></h4>
+              <p class="description">Dailylab es el software mas intuitivo y facil de manejar que se puede encontrar en el mercado.Este permite un facil flujo de los procesos: agendamientos faciles y rapido, consultas. Todo esto se ve traducido tambien en un correcto funcionamiento de los procesos internos de la empresa.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-tachometer'></i></div>
+              <h4 class="title"><a href="">Incrementa la productividad</a></h4>
+              <p class="description">Con un sistema de agendamientos optimo, la prestación del servicio es mejor, permite generar estrategias de mejora! produce beneficios empresa-usuario final, menos carga de trabajo que mejora el desmpeño de las funciones mas importantes.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-tachometer'></i></div>
+              <h4 class="title"><a href="">Fidelizacion</a></h4>
+              <p class="description">Se genera una fidelizacion de los usuarios finales al encontrar un optimo servicio por parte del laboratorio clinico, lo que incrementa la percepcion positiva de este e incrementa las prestaciones de servicio.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+
+    
 
     
 
@@ -456,11 +480,18 @@
 
 
 
-    <div class="container d-md-flex py-4">
+    <div class="container  py-4">
 
-      <div class="me-md-auto text-center text-md-start">
+      <div class="  ">
+  
+     <div class="logofooter">
+<center>
+     <img  src="Views/multimedia/logo2.png" alt="" width="120" height="55" >
+     </center>
+     </div>
         <div class="copyright">
           &copy; Copyright <strong><span>Dailylab</span></strong>. Todos los derechos reservados
+          
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->

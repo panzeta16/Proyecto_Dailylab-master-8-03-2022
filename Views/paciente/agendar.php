@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="Views/css/formularios.css">
+    
     <script src="jquery-3.5.1.min.js"></script>
     <script src="jquery-ui.min.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -18,54 +18,68 @@
     
 <h1>Agenda tu cita </h1>
 <div class= "container-fluid">
-    <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="?c=citas&a=Menu">Inicio</a></li>
-        <li class="breadcrumb-item active">Agendar</li>
-    </ol>
-</nav>
+
+                    <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="?c=citas&a=Menu">Inicio</a></li>
+                        <li class="breadcrumb-item active">Agendar</li>
+                    </ol>
+                    </nav>
     
 
 
    <section class="contact-box">
        <div class="row no-gutters bg-lithe">
 
-           <div >
-                <div class="container align-self-center p-9">
-                    <h1 class=" text-dark font-weight-bold mb-3">Agenda</h1>
+           
+
                     <div class="form-group">
 
                     </div>
                     <input type="hidden" id="Id_Cita" name="Id_Cita" require value="<?=$cita->getId_Cita() ?>">
 
-<input type="hidden" id="Id_Usuario" name="Id_Usuario"  require value="<?=$_SESSION['user']->getId_Usuario() ?>">
+                    <input type="hidden" id="Id_Usuario" name="Id_Usuario"  require value="<?=$_SESSION['user']->getId_Usuario() ?>">
+
+                    <div class="card" style="width: 40rem; margin:auto">
+                    <div class="card-body">
+
+                    <div class="container align-self-center p-9">
+                        <center>
+                    <h1 class=" text-dark font-weight-bold mb-3">Agenda</h1>
+                    </center>
+                    <br>
+                   </div>
 
 <form  id="formulario" action= "?c=citas&a=Agendar" method ="post" >
-<!--<form action= "?c=citas&a=saveAgendar" method ="post">
--->
 
-<div class="form-row mb-2" >
+
+<div    class="form-group"> 
+
 <div class="form-group col-md-6" >
+
   <label  class=" text-dark font-weight-bold" for="Fecha_Cita"> Fecha: </label>
- 
   <input id="fecha" onMouseOut='fuera()' class="form-control" type="date"  name="Fecha_Cita" value="<?=$cita->getFecha_Cita() ?>" >
     <div id="info2"></div>
     <script src='Views/js/evitaWeekends.js'></script>
+
   </div>
 
  <div  class="form-group col-md-6" >
+
 <label  class=" text-dark font-weight-bold" for="Hora_Cita"> Hora: </label>
 <input id="hora" class="form-control" type="time" require name="Hora_Cita"  min='06:00:00' max='18:00:00' value="<?=$cita->getHora_Cita() ?>" >
 
 <script src='Views/js/hora.js'></script>
 </div>
+
 </div>
 <div id="info"></div>
 
-<div class="form-row mb-2">
+<div class="form-group">
 <div class="form-group col-md-6">
 
 <label  class=" text-dark font-weight-bold" for="Id_Sucursal"> sucursal: </label>
+<br>
 
 
 <select   id="sucursal"  name="Id_Sucursal" class="form-control">
@@ -109,6 +123,7 @@
 
 
 </td>
+</div>
 </div>
 </div>
 </div>

@@ -38,9 +38,7 @@
            <div >
                 <div class="container align-self-center p-9">
                     <h1 class=" text-dark font-weight-bold mb-3">Agenda</h1>
-                    <div class="form-group">
-
-                    </div>
+                 
 <form action= "?c=citas&a=agendarPac&Id_Usuario=<?= $usuario->getId_Usuario() ?>" method ="post" id="agendar">
 
 <input type="hidden" name="Id_Usuario" value="<?=$usuario->getId_Usuario() ?>">
